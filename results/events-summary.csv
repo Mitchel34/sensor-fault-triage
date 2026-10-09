@@ -1,0 +1,13 @@
+group,family,tp,fp,fn,precision,recall,delay_matches,missed,mean_delay_samples
+clear,missing,80,0,0,1.0,1.0,80,0,0.0
+clear,stuck,80,0,0,1.0,1.0,80,0,6.0
+clear,spike,80,0,0,1.0,1.0,80,0,1.0
+clear,drift,80,0,0,1.0,1.0,80,0,9.0875
+low,missing,80,0,0,1.0,1.0,80,0,0.0
+low,stuck,0,0,80,1.0,0.0,0,80,
+low,spike,0,0,80,1.0,0.0,0,80,
+low,drift,0,0,80,1.0,0.0,0,80,
+overlap,missing,80,0,0,1.0,1.0,80,0,0.0
+overlap,stuck,0,240,80,0.0,0.0,0,80,
+overlap,spike,80,0,0,1.0,1.0,80,0,1.0
+overlap,drift,0,160,80,0.0,0.0,0,80,
